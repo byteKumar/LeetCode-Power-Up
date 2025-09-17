@@ -1,0 +1,20 @@
+{
+  "name": "leetcode-powerup",
+  "version": "1.0.0",
+  "description": "Injects a sidebar on LeetCode problem pages with: 1. Top 3–5 YouTube video solution links (via YouTube Data API). 2. A per-problem scratchpad (notes saved in chrome.storage).",
+  "main": "content.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "vite": "^6.3.5"
+  },
+  "devDependencies": {
+    "vite-plugin-static-copy": "^3.0.2"
+  },
+  "type": "module"
+}

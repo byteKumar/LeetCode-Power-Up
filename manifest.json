@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "LeetCode Power-Up",
+  "version": "1.0.0",
+  "description": "YouTube solutions sidebar + per-problem scratchpad",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://leetcode.com/*",
+    "https://www.googleapis.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://leetcode.com/problems/*"],
+      "js": ["src/content.js"],
+      "css": ["src/style.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
